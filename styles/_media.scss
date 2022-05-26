@@ -1,0 +1,15 @@
+@media(max-width:968px){
+  #section-c{
+    .wrapper{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  #section-d{
+    .wrapper{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
